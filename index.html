@@ -45,7 +45,7 @@
     const blobManifest = new Blob([stringManifest], {type: 'application/json'});
     const manifestURL = URL.createObjectURL(blobManifest);
     document.getElementById('manifest-placeholder')?.setAttribute('href', manifestURL);
-  </script>
+  </>
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -676,7 +676,7 @@
   </div>
 
   <script>
-    const API_URL = "https://script.google.com/macros/s/AKfycbzCKfyt8EHZb1FveYz_RNBDVDb7i0ubsAJqQcIqR5d__7xZcHZaQJeZLftqqEaEol74/exec";
+    const API_URL = "https://script.google.com/macros/s/AKfycby2YlA7xwUDdPmttUcSnRa8y0GUhjIM7or29_-ycYV4kASKRWRfhVp1_9dqgiz3d1Wc/exec";
 
     let currentUser = null;
     let isAdmin = false;
